@@ -206,6 +206,84 @@ div.imgcaption {
     border: none;
 	width: 70px;
 }
+.container-grid {
+  display: flex;
+  flex-wrap: wrap
+}
+.navbar-dark .navbar-brand {
+  font-size: 2em;
+  font-family: "Pacifico", serif;
+  color: white;
+}
+.contact-form {
+  width: 80%;
+}
+
+.port-cards {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+}
+
+.card-header {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000066;
+}
+
+i.fab,
+i.fas,
+a {
+  color: #f85032;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.wrapper > h1 {
+  padding: 20px;
+  margin: 40px;
+  font-size: 2.5rem;
+}
+
+.wrapper > p {
+  font-size: 1.5rem;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+
+
+.share > button {
+  background-color: #f85032;
+  border-radius: 5px;
+  border: 2px solid white;
+  padding: 10px;
+  margin: 5px;
+  width: 130px;
+}
+
+.share > button > a {
+  color: #fff;
+}
+
+i.fa-envelope:before {
+  color: #fff;
+}
+
+i.fa-linkedin:before {
+  color: white;
+}
+
+i.fa-github:before {
+  color: white;
+}
 
 @media (min-width: 1200px)
 {
