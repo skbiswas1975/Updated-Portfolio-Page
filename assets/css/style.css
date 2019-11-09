@@ -12,6 +12,11 @@ html, body {
   background-color:#efefef;
 }
 
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
 .container {
 	background-color: #fff;
 	}
@@ -298,10 +303,10 @@ i.fa-github:before {
   background-color:#666666;
   border-top: 8px solid #4aaaa5;
   /*margin-top: -32px;  */
-  flex-shrink: 0;
+  /*flex-shrink: 0;*/
   /*position: absolute;*/
   
-} */
+/*} */
 }
 
 @media only screen and (max-width:620px) {
