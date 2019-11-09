@@ -18,7 +18,8 @@ html, body {
 }
 
 .container {
-	background-color: #fff;
+  background-color: #fff;
+  border-radius: 5px;
 	}
 
 .container-fluid{
@@ -333,7 +334,8 @@ i.fa-github:before {
 {
 .container {
     width: 960px;
-	background-color: #fff;
+  background-color: #fff;
+  border-radius: 5px;
 	}
  /* .footer {
   text-align:center;
