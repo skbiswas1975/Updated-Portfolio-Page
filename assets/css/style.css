@@ -201,15 +201,20 @@ div.imgcaption {
 
 .textbox{
 	width: 100%;
-    border-color: #0000001a;
-	border-width: 2px;
+  border-color: #00000057;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 7px;
 }
 
 .submit{
 	background-color: #4aaaa5;
-    color: #fff;
-    border: none;
-	width: 70px;
+  color: #fff;
+  border: 2px solid white;
+  width: 130px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
 }
 .container-grid {
   display: flex;
@@ -288,6 +293,40 @@ i.fa-linkedin:before {
 
 i.fa-github:before {
   color: white;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:    #dedddd;
+  font-family: Georgia, Times, Times New Roman, serif;
+  font-style: italic;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ color:    #dedddd;
+ opacity:  1;
+ font-family: Georgia, Times, Times New Roman, serif;
+ font-style: italic;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+ color:    #dedddd;
+ opacity:  1;
+ font-family: Georgia, Times, Times New Roman, serif;
+ font-style: italic;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color:    #dedddd;
+ font-family: Georgia, Times, Times New Roman, serif;
+ font-style: italic;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+ color:    #dedddd;
+ font-family: Georgia, Times, Times New Roman, serif;
+ font-style: italic;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+ color:    #dedddd;
+ font-family: Georgia, Times, Times New Roman, serif;
+ font-style: italic;
 }
 
 @media (min-width: 1200px)
